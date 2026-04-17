@@ -1,20 +1,39 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# RhythMe
 
-# Run and deploy your AI Studio app
+RhythMe is a music-focused front-end experiment that combines a local music player, EQ controls, visual feedback, and rhythm-game inspired interaction ideas in one interface.
 
-This contains everything you need to run your app locally.
+## Stack
 
-View your app in AI Studio: https://ai.studio/apps/temp/1
+- React
+- TypeScript
+- Vite
 
-## Run Locally
+## Focus
 
-**Prerequisites:**  Node.js
+- Local music playback workflows
+- Music-oriented interaction design
+- Equalizer and visual feedback concepts
+- Rhythm-game inspired user experience ideas
 
+## Development
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Prerequisites:
+
+- Node.js
+
+Run locally:
+
+```bash
+npm install
+npm run dev
+```
+
+Build:
+
+```bash
+npm run build
+```
+
+## Notes
+
+This project is being preserved as a portfolio piece exploring music UX, front-end experimentation, and interactive media concepts.
